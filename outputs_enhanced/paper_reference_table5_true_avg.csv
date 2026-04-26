@@ -1,0 +1,6 @@
+paper_table,model_size,train_dataset,TRUE_AUC_avg
+Table 5 TRUE avg,T5-small,MNLI,63.48
+Table 5 TRUE avg,T5-small,ANLI,51.77
+Table 5 TRUE avg,T5-small,WANLI,65.21
+Table 5 TRUE avg,T5-small,M+A+W,65.33
+Table 5 TRUE avg,T5-small,GNLI,72.06

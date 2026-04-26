@@ -1,0 +1,23 @@
+{
+  "output_dir": "outputs_enhanced",
+  "model_name": "t5-small",
+  "max_train_per_public_dataset": 20000,
+  "max_train_combo": 26000,
+  "max_eval_per_dataset": 2500,
+  "gnli_examples_per_domain_length": 150,
+  "epochs": 2,
+  "batch_size": 4,
+  "eval_batch_size": 12,
+  "grad_accum_steps": 4,
+  "learning_rate": 0.0005,
+  "max_input_length": 512,
+  "max_target_length": 8,
+  "run_combinations": true,
+  "run_maw": true,
+  "run_enhanced_all": true,
+  "run_true_if_available": true,
+  "save_models": false,
+  "push_to_github": true,
+  "github_sync_each_model": true,
+  "github_subdir": "assignment3_enhanced"
+}
