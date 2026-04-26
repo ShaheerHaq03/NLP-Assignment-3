@@ -1,0 +1,38 @@
+{
+  "run_name": "ANLI_GNLI_PROXY_3way",
+  "train_dataset": "ANLI+GNLI_PROXY",
+  "binary": false,
+  "model_name": "t5-small",
+  "train_examples": 1479,
+  "dev_examples": 183,
+  "elapsed_seconds": 59.46,
+  "config": {
+    "output_dir": "outputs_smoke",
+    "model_name": "t5-small",
+    "max_train_per_public_dataset": 1000,
+    "max_train_combo": 1500,
+    "max_eval_per_dataset": 300,
+    "gnli_examples_per_domain_length": 12,
+    "epochs": 1,
+    "batch_size": 4,
+    "eval_batch_size": 8,
+    "grad_accum_steps": 2,
+    "learning_rate": 0.0005,
+    "max_input_length": 256,
+    "max_target_length": 8,
+    "run_combinations": true,
+    "run_maw": true,
+    "run_enhanced_all": false,
+    "run_true_if_available": false,
+    "save_models": false,
+    "push_to_github": false,
+    "github_sync_each_model": true,
+    "github_subdir": "assignment3_smoke"
+  },
+  "gpu_info": {
+    "cuda_available": true,
+    "device": "cuda",
+    "gpu_name": "Tesla T4",
+    "gpu_memory_gb": 14.56
+  }
+}

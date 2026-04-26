@@ -1,0 +1,13 @@
+dataset,split,num_examples,label_counts
+MNLI,train,1000,"{""neutral"": 334, ""contradiction"": 333, ""entailment"": 333}"
+ANLI,train,1000,"{""neutral"": 334, ""entailment"": 333, ""contradiction"": 333}"
+WANLI,train,1000,"{""entailment"": 334, ""contradiction"": 333, ""neutral"": 333}"
+GNLI_PROXY,train,729,"{""neutral"": 246, ""contradiction"": 245, ""entailment"": 238}"
+MNLI+GNLI_PROXY,train,1479,"{""neutral"": 496, ""contradiction"": 495, ""entailment"": 488}"
+ANLI+GNLI_PROXY,train,1479,"{""neutral"": 496, ""contradiction"": 495, ""entailment"": 488}"
+WANLI+GNLI_PROXY,train,1479,"{""neutral"": 496, ""contradiction"": 495, ""entailment"": 488}"
+MNLI+ANLI+WANLI,train,1500,"{""neutral"": 503, ""entailment"": 499, ""contradiction"": 498}"
+MNLI,eval,300,"{""contradiction"": 100, ""neutral"": 100, ""entailment"": 100}"
+ANLI,eval,300,"{""entailment"": 100, ""neutral"": 100, ""contradiction"": 100}"
+WANLI,eval,300,"{""neutral"": 100, ""contradiction"": 100, ""entailment"": 100}"
+GNLI_PROXY,eval,183,"{""entailment"": 66, ""contradiction"": 59, ""neutral"": 58}"

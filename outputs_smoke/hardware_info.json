@@ -1,0 +1,6 @@
+{
+  "cuda_available": true,
+  "device": "cuda",
+  "gpu_name": "Tesla T4",
+  "gpu_memory_gb": 14.56
+}

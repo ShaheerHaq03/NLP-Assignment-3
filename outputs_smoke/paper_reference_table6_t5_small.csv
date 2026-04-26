@@ -1,0 +1,8 @@
+paper_table,model_size,train_dataset,MNLI,ANLI,WANLI,GNLI_Human
+Table 6,T5-small,MNLI,83.37,31.34,56.52,75.31
+Table 6,T5-small,ANLI,70.35,48.31,52.7,67.14
+Table 6,T5-small,WANLI,60.4,36.41,72.6,57.76
+Table 6,T5-small,GNLI,82.18,33.0,56.56,77.14
+Table 6,T5-small,MNLI+GNLI,82.66,30.94,55.82,77.76
+Table 6,T5-small,ANLI+GNLI,72.89,37.94,48.65,69.8
+Table 6,T5-small,WANLI+GNLI,78.02,34.87,86.69,76.53
