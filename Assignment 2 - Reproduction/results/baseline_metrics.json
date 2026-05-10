@@ -1,6 +1,7 @@
 {
   "experiment": "Assignment 2 Reproduction",
   "model": "t5-small",
+  "training_profile": "final",
   "task": "3-way Natural Language Inference",
   "datasets": [
     "MNLI",
@@ -8,18 +9,40 @@
     "WANLI",
     "GNLI_PROXY"
   ],
-  "metrics": {
-    "cross_dataset_evaluation": true,
-    "results_file": "cross_dataset_accuracy_results.csv",
-    "pivot_file": "cross_dataset_accuracy_pivot.csv"
+  "results": {
+    "MNLI_to_MNLI": 0.7955,
+    "MNLI_to_ANLI": 0.2935,
+    "MNLI_to_WANLI": 0.5730,
+    "MNLI_to_GNLI_PROXY": 0.9990,
+
+    "ANLI_to_MNLI": 0.7480,
+    "ANLI_to_ANLI": 0.4335,
+    "ANLI_to_WANLI": 0.5845,
+    "ANLI_to_GNLI_PROXY": 1.0000,
+
+    "WANLI_to_MNLI": 0.6725,
+    "WANLI_to_ANLI": 0.3545,
+    "WANLI_to_WANLI": 0.6465,
+    "WANLI_to_GNLI_PROXY": 0.8980,
+
+    "GNLI_PROXY_to_MNLI": 0.6160,
+    "GNLI_PROXY_to_ANLI": 0.3165,
+    "GNLI_PROXY_to_WANLI": 0.4890,
+    "GNLI_PROXY_to_GNLI_PROXY": 1.0000
+  },
+  "best_cross_domain_model": "MNLI+ANLI+WANLI",
+  "best_results": {
+    "MNLI": 0.7710,
+    "ANLI": 0.4095,
+    "WANLI": 0.6480,
+    "GNLI_PROXY": 0.9935
   },
   "generated_outputs": [
-    "dataset_summary.csv",
-    "gnli_proxy_dataset.csv",
     "cross_dataset_accuracy_results.csv",
     "cross_dataset_accuracy_pivot.csv",
-    "training_log.csv",
-    "training_curve.png"
+    "dataset_summary.csv",
+    "gnli_proxy_dataset.csv",
+    "training_log.csv"
   ],
   "status": "completed"
 }
