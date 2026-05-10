@@ -1,0 +1,13 @@
+dataset,split,num_examples,label_counts
+MNLI,train,50000,"{""neutral"": 16668, ""entailment"": 16666, ""contradiction"": 16666}"
+ANLI,train,50000,"{""neutral"": 16667, ""entailment"": 16667, ""contradiction"": 16666}"
+WANLI,train,50000,"{""neutral"": 17437, ""entailment"": 17166, ""contradiction"": 15397}"
+GNLI_PROXY,train,15200,"{""entailment"": 5098, ""contradiction"": 5087, ""neutral"": 5015}"
+MNLI+ANLI+WANLI,train,50000,"{""contradiction"": 16667, ""neutral"": 16667, ""entailment"": 16666}"
+MNLI+GNLI_PROXY,train,40200,"{""entailment"": 13431, ""contradiction"": 13420, ""neutral"": 13349}"
+ANLI+GNLI_PROXY,train,40200,"{""entailment"": 13432, ""contradiction"": 13420, ""neutral"": 13348}"
+WANLI+GNLI_PROXY,train,40200,"{""entailment"": 13431, ""contradiction"": 13420, ""neutral"": 13349}"
+MNLI,eval,2000,"{""contradiction"": 667, ""neutral"": 667, ""entailment"": 666}"
+ANLI,eval,2000,"{""neutral"": 667, ""contradiction"": 667, ""entailment"": 666}"
+WANLI,eval,2000,"{""neutral"": 668, ""contradiction"": 666, ""entailment"": 666}"
+GNLI_PROXY,eval,2000,"{""entailment"": 667, ""neutral"": 667, ""contradiction"": 666}"
