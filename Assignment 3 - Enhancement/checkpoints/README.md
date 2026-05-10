@@ -1,0 +1,1 @@
+Place saved model checkpoints here only if required. To generate checkpoint folders, set `save_models: True` in the selected profile inside `src/pipeline.py`. Large weights should usually be uploaded with Git LFS or released separately.

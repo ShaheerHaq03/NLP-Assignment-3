@@ -1,0 +1,4 @@
+{
+  "status": "placeholder",
+  "note": "Generated outputs are saved by train.py into the configured output_dir. Copy final baseline metrics here before submission."
+}

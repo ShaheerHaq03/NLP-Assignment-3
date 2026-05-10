@@ -1,0 +1,9 @@
+premise,hypothesis,label
+Amina submitted the report before the deadline.,Amina submitted something before the deadline.,entailment
+The shop closed at 8 PM on Friday.,The shop was open at midnight.,contradiction
+Bilal visited Islamabad for a meeting.,Bilal bought a new laptop in Islamabad.,neutral
+The software update fixed the login problem.,The login problem was resolved by the update.,entailment
+Sara did not attend the workshop.,Sara attended the workshop.,contradiction
+The delivery arrived in Karachi on Monday.,The delivery contained electronics.,neutral
+The clinic approved the medical report.,The medical report was approved.,entailment
+The payment failed because the card expired.,The payment succeeded without any issue.,contradiction

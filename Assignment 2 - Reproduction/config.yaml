@@ -1,0 +1,13 @@
+# Default training config reference.
+# The actual runnable profiles are defined in src/pipeline.py under PROFILES.
+default_profile: smoke
+model_name: t5-small
+task: natural_language_inference
+labels:
+  - entailment
+  - neutral
+  - contradiction
+input_format: "nli premise: <premise> hypothesis: <hypothesis> label:"
+notes:
+  - "Use train.py --profile smoke first."
+  - "Set save_models=True inside src/pipeline.py profile if you need checkpoint folders for inference."
