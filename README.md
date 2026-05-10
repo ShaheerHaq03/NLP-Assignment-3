@@ -1,5 +1,3 @@
-# Synthetic Data for Domain Generalization in NLI
-
 <div align="center">
 
 # Synthetic Data for Domain Generalization of NLI Models
